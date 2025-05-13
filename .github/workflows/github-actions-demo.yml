@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Build:
+  build:
     runs-on: ubuntu-latest
     steps:
       - run: |
